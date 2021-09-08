@@ -17,6 +17,7 @@ class TripTableSeeder extends Seeder
         $arraySurname = ['bianche','rossi','gialli','verdi','blue','celesti','finiti'];
 
 
+
         for($i = 0; $i < 100; $i++){
             // creo un'istanza basata sul model Travel  
             $newTrip = new Trip();

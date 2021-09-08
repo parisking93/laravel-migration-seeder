@@ -11231,3 +11231,14 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+header {
+  height: 100px;
+}
+
+footer {
+  height: 80px;
+}
+
+main {
+  height: calc(100vh - 180px);
+}

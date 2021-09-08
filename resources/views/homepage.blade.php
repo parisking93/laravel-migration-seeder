@@ -1,8 +1,8 @@
 @extends('layouts.app')
 @section('main')
-        <div class="card-group">
+        <div class="card-group pt-5">
             @foreach ($trips as $trip)
-            <div class="card my-5">
+            <div class="card my-5 mx-1">
                 <div class="card-body">
                     <h4 class="card-title">Pacco viaggio</h4>
                     <h5 class="card-title">{{$trip->name_owner}} {{$trip->surname_owner}}</h5>
